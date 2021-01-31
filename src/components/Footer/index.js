@@ -37,26 +37,26 @@ export default function Footer() {
             <div className="row">
               <div className="col-sm-6 col-lg-3 col-xs-12">
                 <a className="mb-6 d-block" href="/">
-                  <img className="img-fluid d-inline-block w-50 lazyestload" data-src="assets/img/logo-footer.png" src="assets/img/logo-footer.png" />
+                  {/* <img className="img-fluid d-inline-block w-50 lazyestload" data-src="assets/img/logo-footer.png" src="assets/img/logo-footer.png" /> */}
                 </a>
-                <p className="mb-6">Desde 2015 contando com voluntários engajados e muita força de vontade!</p>
+                <p className="mb-6">A proposta da MindLab.solutions é inovar neste aspecto, identificando potenciais áreas para o desenvolvimento das tecnologias digitais para prevenção de suicídio, que venham agregar valor substancial as estratégias públicas de prevenção.</p>
               </div>
 
               <div className="col-sm-6 col-lg-3 col-xs-12">
                 <h4 className="section-title-sm font-weight-bold text-white mb-6">Links Direto</h4>
                 <ul className="list-unstyled">
                   <li className="mb-4">
-                    <a href="/sobre-nos">
+                    <a href="https://linktr.ee/mindlab.solutions">
                       <i className="fa fa-angle-double-right mr-2" aria-hidden="true"></i>Sobre Nós
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a href="/doar">
-                      <i className="fa fa-angle-double-right mr-2" aria-hidden="true"></i>Doações
+                    <a href="https://www.instagram.com/mindlab.solutions2021/">
+                      <i className="fa fa-angle-double-right mr-2" aria-hidden="true"></i>Instagram
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a href="/blog">
+                    <a href="https://www.instagram.com/mindlab.solutions2021/">
                       <i className="fa fa-angle-double-right mr-2" aria-hidden="true"></i>Blog
                     </a>
                   </li>
@@ -113,18 +113,18 @@ export default function Footer() {
           <div className="container">
             <div className="row py-4 align-items-center">
               <div className="col-sm-7 col-xs-12 order-1 order-md-0">
-                <p className="copyright-text"> © 2020 Copyright Estruturando developed by <a href="http://www.devtime.com.br/" target="_blank">Devtime</a></p>
+                <p className="copyright-text"> © 2020 Copyright MindLab Solutions developed by <a href="http://www.mindlab.com.br/" target="_blank">mindLab</a></p>
               </div>
 
               <div className="col-sm-5 col-xs-12">
                 <ul className="list-inline d-flex align-items-center justify-content-md-end justify-content-center mb-md-0">
                   <li className="mr-3">
-                    <a className="icon-rounded-circle-small bg-warning"  href="https://www.facebook.com/projetoestruturando/" target="_blank">
+                    <a className="icon-rounded-circle-small bg-warning"  href="https://www.instagram.com/mindlab.solutions2021" target="_blank">
                       <i className="fa fa-facebook text-white" aria-hidden="true"></i>
                     </a>
                   </li>
                   <li className="mr-3">
-                    <a className="icon-rounded-circle-small bg-success"  href="https://www.instagram.com/projetoestruturando/" target="_blank">
+                    <a className="icon-rounded-circle-small bg-success"  href="https://www.instagram.com/mindlab.solutions2021" target="_blank">
                       <i className="fa fa-instagram text-white" aria-hidden="true"></i>
                     </a>
                   </li>

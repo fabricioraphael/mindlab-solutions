@@ -20,8 +20,8 @@ export default function routes() {
   return (
     <Switch>
       <Route path="/" exact component={Home} isPrivete />
-      <Route path="/sobre-nos" exact component={About} />
-      <Route path="/blog" exact component={BlogList} />
+      {/* <Route path="/sobre-nos" exact component={About} /> */}
+      {/* <Route path="/blog" exact component={BlogList} />
       <Route path="/postagem" exact component={Postagem} />
       <Route path="/doar" exact component={Donate} />
 
@@ -29,7 +29,7 @@ export default function routes() {
       <Route path="/sing-in" exact component={SignIn} />
 
       <Route path="/dashboard"  component={Dashboard} isPrivete />
-      <Route path="/profile"  component={Profile} isPrivete />
+      <Route path="/profile"  component={Profile} isPrivete /> */}
 
       <Route path="/"  component={() => <h1>404</h1>} />
     </Switch>
